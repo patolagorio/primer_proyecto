@@ -1,3 +1,57 @@
+/*importo*/
+
+@-webkit-keyframes rotate-scale-down{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(.5) rotateZ(180deg);transform:scale(.5) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}@keyframes rotate-scale-down{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(.5) rotateZ(180deg);transform:scale(.5) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}
+
+.imganimada:hover { 
+    -webkit-animation:rotate-scale-down .65s linear both;animation:rotate-scale-down .65s linear both}
+.imganimada{
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+    .imganimada:hover {
+        transform: scale(1.5 );
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-box-shadow: 3px 3px 5px #000;
+        -moz-box-shadow: 3px 3px 5px #000;
+        box-shadow: 3px 3px 5px #000;
+        -webkit-backface-visibility: hidden;
+      }
+
+
+
+      .image {
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+      }
+      .image:hover {
+        transform: scale(1.5 );
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        -webkit-box-shadow: 3px 3px 5px #000;
+        -moz-box-shadow: 3px 3px 5px #000;
+        box-shadow: 3px 3px 5px #000;
+        -webkit-backface-visibility: hidden;
+      }
+
+
+
+
+
+
+
+
 
 html{border: 5px;
 
@@ -115,6 +169,26 @@ footer {background-color: rgb(197, 189, 189);
      grid-area: mapa ;
     
 }
+
+.mapa {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  .mapa:hover {
+    transform: scale(1.5 );
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-box-shadow: 3px 3px 5px #000;
+    -moz-box-shadow: 3px 3px 5px #000;
+    box-shadow: 3px 3px 5px #000;
+    -webkit-backface-visibility: hidden;
+  }
+
 
 .info {
     grid-area: info;
